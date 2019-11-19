@@ -62,11 +62,6 @@ const Toolbar = (props) => {
                               exact={true}
                               activeStyle={{color: 'white'}}>Create Post</Nav.Link>
 
-                    //<Nav.Link as={NavLink}
-                      //        to="/go-fishing"
-                       //       exact={true}
-                        //      activeStyle={{color: 'white'}}>Go Fishing</Nav.Link>
-
                     <Nav.Link as={NavLink}
                               to="/find-people"
                               exact={true}
