@@ -150,7 +150,7 @@ JWT_AUTH = {
 
     # this is the maximum time AFTER the token was issued that
     # it can be refreshed.  exprired tokens can't be refreshed.
-    'JWT_REFRESH_EXPIRATION_DELTA': datetime.timedelta(days=7),
+    'JWT_REFRESH_EXPIRATION_DELTA': datetime.timedelta(days=0),
 }
 # Whitelist localhost:3000 because we have frontend here
 CORS_ORIGIN_ALLOW_ALL = True
