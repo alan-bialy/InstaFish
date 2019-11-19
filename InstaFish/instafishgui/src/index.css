@@ -1,0 +1,24 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #E9EBEE;
+    font-family: "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.btn:active, .btn:focus {
+    box-shadow: none;
+}
+
+.custom-outline-btn:hover {
+    background: white;
+    color: #007BFF;
+    box-shadow: none;
+}
+
